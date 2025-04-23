@@ -1,17 +1,117 @@
 *{
-    padding: 0;
-    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+
+}
+.main-container{
+    background-image: url("Images/bg.jpg");
+    height: 80vh;
+    width: 100%;
+    position: relative;
+
+}
+.main-container .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.55;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+
+
+nav img{
+    width: 167px;
+    height: 45px;
+
+}
+.nav-container{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 45px;
+    align-items: center;
+    margin: auto;
+    z-index: 10;
+
+}
+
+nav button{
+    z-index: 10;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.hero{
+    font-family: Arial, Helvetica, sans-serif ;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
     
 }
 
-main{
-    background-image: url(Images/bg.jpg);
-    height: 80vh;
+.movie{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.second-info{
+    font-weight: 500px;
+    font-size: 21px;
+}
+
+.third-info{
+    font-weight: 400 ;
+    font-size:20px ;
+}
+
+.seperation{
+    height: 7px;
+    color: rgb(88, 88, 88);
+}
+
+.btn{
+
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    font-size: 20px;
+    border-radius: 4px;
 
 }
 
-.box{
-    width: 100%;
-    opacity: 1;
-    background-color: black;
+.hero input{
+
+    padding: 10px 24px;
+    font-size: 18px;
+    border-radius: 4px;
+    background: rgba(23, 23, 23, 0.2) ;
+    font-weight: 700;
+    color: aliceblue;
+
+}
+
+.Sign{
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+
 }
