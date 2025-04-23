@@ -27,16 +27,16 @@ body{
 
 
 nav img{
-    width: 120px;
+    width: 100px;
     height: 45px;
     
 
 }
 .nav-container{
-   
+    
     display: flex;
     justify-content: space-between;
-    padding: 20px 45px;
+    padding: 20px 200px;
     align-items: center;
     margin: auto;
     z-index: 10;
@@ -125,7 +125,7 @@ nav button{
 }
 
 .secImg{
-    width: 30vw;
+    width: 555px;
     margin-top: 45px;
     margin-bottom: 45px;
     border-radius: 10px;
@@ -141,14 +141,111 @@ nav button{
    
 }
 
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+.faq{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    
+    
+}
+
 .faqbox{
     display: flex;
-    background-color: gray;
-    padding: 34px;
+   background-color: rgb(93, 93, 93);
+    color: white;
+    padding: 24px;
     justify-content:center ;
-    width: 100vw;
+    max-width: 60vw;
+    margin: 15px auto;
+    text-align: left;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all;
+    
+    
 
 }
-faq i{
-    color: black;
+
+.faqbox:hover{
+    background-color: rgb(190, 188, 188);
+    transition: all 1s ease-out;
+}
+.plus-icon{
+    width: 20px;
+    height: 20px;
+    stroke: white;
+}
+
+footer{
+    display: block;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    margin-top:20px ;
+    padding: 14px;
+}
+
+
+
+
+.footer-item{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    color: white;
+}
+
+.footer-item a{
+ 
+    color: rgba(255, 255, 255, 0.564);
+    font-size: 14px;
+    gap: 20px;
+    margin: 6px 10px;
+}
+
+
+.hero-footer{
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+    
+
+}
+
+#email{
+    width: 500px;
+    text-align: left;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid rgba(0, 128, 0, 0.682);
+}
+
+.watch-footer{
+color: white;
+text-align: center;
+margin: o auto;
+}
+
+footer span{
+    margin: auto;
+    max-width: 60vw;
+    padding: 34px;
+}
+
+@media screen  and (max-width : 1300px){
+    body{
+        background-color: black;
+
+    }
+    .first{
+        flex-wrap: wrap;
+    }
 }
